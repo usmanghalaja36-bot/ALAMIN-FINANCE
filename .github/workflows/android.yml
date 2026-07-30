@@ -2,14 +2,7 @@ name: Build ALAMIN FINANCE APK
 
 on:
   workflow_dispatch:
-name: Build ALAMIN FINANCE APK
 
-on:
-  workflow_dispatch:
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -21,7 +14,8 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-node-version: 22
+          node-version: 22
+
       - name: Install dependencies
         run: npm install
 
