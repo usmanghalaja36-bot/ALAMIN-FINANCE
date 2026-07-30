@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">ALAMIN FINANCE</string>
+    <string name="title_activity_main">ALAMIN FINANCE</string>
+    <string name="package_name">com.alamin.finance</string>
+    <string name="custom_url_scheme">com.alamin.finance</string>
+</resources>
