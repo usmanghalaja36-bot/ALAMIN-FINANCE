@@ -2,7 +2,14 @@ name: Build ALAMIN FINANCE APK
 
 on:
   workflow_dispatch:
+name: Build ALAMIN FINANCE APK
 
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
 jobs:
   build:
     runs-on: ubuntu-latest
